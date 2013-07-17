@@ -6,7 +6,7 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + used PostGIS for Windows: postgis-pg92x64-setup-2.0.3-2.exe http://postgis.net/windows_downloads
 
-+ osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17
++ osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17 | Direct link: https://vanguard.houghtonassociates.com/browse/OSM-OSM2PSQL-43/artifact | Download `cygwin-package` and extract to a location (e.g. `C:\osm2pgsql`)
 
 + to obtain a .osm file: follow this guide https://gist.github.com/jlar/3035152 
 

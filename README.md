@@ -8,4 +8,6 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17
 
++ to obtain a .osm file: follow this guide https://gist.github.com/jlar/3035152 
+
 + osm2pgsql command: https://gist.github.com/jlar/6016041 ...uses the `slu.style` file in this repo. Link to Raw, download this https://raw.github.com/SLUGIS/OSM-Buildings/master/slu.style

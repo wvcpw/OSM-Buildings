@@ -5,6 +5,7 @@ This repo contains files, commands, etc. used to extract (building) features fro
 + used PostgreSQL for Windows: postgresql-9.2.4-1-windows-x64.exe http://www.enterprisedb.com/products-services-training/pgdownload#windows
 
 + used PostGIS for Windows: postgis-pg92x64-setup-2.0.3-2.exe http://postgis.net/windows_downloads
++ + navigate to C:\PostgreSQL\9.2\data and edit pg_hba.conf > adjust the IPv4 local line, change md5 to trust, Save file > press the Windows (logo) button, type 'services', right-click the postgresql entry and restart.
 
 + osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17 > Direct link: https://vanguard.houghtonassociates.com/browse/OSM-OSM2PSQL-43/artifact > Download `cygwin-package` and extract the contents to a location (e.g. make a new folder `C:\osm2pgsql`).
 

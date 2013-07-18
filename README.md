@@ -14,5 +14,5 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + osm2pgsql command: `osm2pgsql -S slu.style -d your_postgis_database -U postgres -H localhost -x your_osm_file.osm` ...uses the `slu.style` file in this repo. Link to Raw, download this https://raw.github.com/SLUGIS/OSM-Buildings/master/slu.style
 
-+ Connect to PostGIS database from QuantumGIS and add buildings/polygons layer > Save As shapefile or other format.
++ Connect to PostGIS database from QuantumGIS and add buildings/polygons layer > Save As shapefile or other format, and potentially reproject coordinate system.
 

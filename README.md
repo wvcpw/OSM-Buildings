@@ -14,7 +14,7 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + navigate to `C:\Program Files\PostgreSQL\9.x\data` and edit `pg_hba.conf` with a text editor > adjust the IPv4 local line, change md5 to trust, Save file > press the Windows (logo) button, type 'services', right-click the postgresql entry and restart.
 
-+ osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17 > See bottom of issue thread to determine most recent version of osm2pgsql >extract the contents to `C:\osm2pgsql`.
++ osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17 > See bottom of issue thread to determine most recent version of osm2pgsql > Direct link to working version, for us: https://vanguard.houghtonassociates.com/browse/OSM-OSM2PSQL-43/artifact > Download `cygwin-package` and extract the contents to a location (e.g. make a new folder `C:\osm2pgsql`) extract the contents to `C:\osm2pgsql`.
 
 + to obtain a .osm file: follow this guide https://gist.github.com/oeon/3035152 > place the .osm file in the directory you extracted osm2pgsql to.
 

@@ -16,7 +16,7 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + osm2pgsql for Windows obtained from https://github.com/openstreetmap/osm2pgsql/issues/17 > See bottom of issue thread to determine most recent version of osm2pgsql > Direct link to working version, for us: https://vanguard.houghtonassociates.com/browse/OSM-OSM2PSQL-43/artifact > Download `cygwin-package` and extract the contents to a location (e.g. make a new folder `C:\osm2pgsql`) extract the contents to `C:\osm2pgsql`.
 
-+ to obtain a .osm file: follow this guide https://gist.github.com/oeon/3035152 > place the .osm file in the directory you extracted osm2pgsql to.
++ to obtain a .osm file: follow this guide https://gist.github.com//wvcpw/dcffce8fea9412f6c178 > place the .osm file in the directory you extracted osm2pgsql to.
 
 + create a database using pgAdminIII. This program was installed with PostgreSQL and can be accessed from the Start Menu in Windows.
 

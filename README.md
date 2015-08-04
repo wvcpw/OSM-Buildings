@@ -20,7 +20,7 @@ This repo contains files, commands, etc. used to extract (building) features fro
 
 + create a database using pgAdminIII. This program was installed with PostgreSQL and can be accessed from the Start Menu in Windows.
 
-+ osm2pgsql command (can be done by holding shift and right-clicking on the osm2pgsql folder, then opening the command window option): `osm2pgsql -S wvc.style -d your_postgis_database -U postgres -H localhost -x your_osm_file.osm` ...uses the `slu.style` file in this repo. Link to Raw, download this https://raw.github.com/SLUGIS/OSM-Buildings/master/slu.style > Make sure to replace the "your_postgis_database" with the database name created above >Replace the "your_osm_file.osm" with what you named your osm file (can be dragged into the command window). 
++ osm2pgsql command (can be done by holding shift and right-clicking on the osm2pgsql folder, then opening the command window option): `osm2pgsql -S wvc.style -d your_postgis_database -U postgres -H localhost -x your_osm_file.osm` ...uses the `slu.style` file in this repo. Link to Raw, download this https://github.com/wvcpw/OSM-Buildings/blob/master/wvc.style > Make sure to replace the "your_postgis_database" with the database name created above >Replace the "your_osm_file.osm" with what you named your osm file (can be dragged into the command window). 
 
 + Connect to PostGIS database from QuantumGIS and add buildings/polygons layer > Save As shapefile or other format, and potentially reproject coordinate system.
 
